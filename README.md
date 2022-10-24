@@ -46,9 +46,9 @@ Hiu Sum Jaime Yue -- Tech Blog
 ## Tests         
 The following is an example of .env file.           
 // DB_PASSWORD is the password you set for your mysql.           
-DB_NAME='tech_blog_db'
-DB_USER='root'
-DB_PASSWORD=''           
+DB_NAME='tech_blog_db'          
+DB_USER='root'              
+DB_PASSWORD=''                  
 
 
 
