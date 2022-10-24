@@ -40,7 +40,8 @@ button {
 }
 
 button:hover,
-.title a:hover {
+.title a:hover,
+.add-post-btn:hover {
     background-color: #3486eb;
 }
 
@@ -112,6 +113,8 @@ header nav a,
     padding-right: 30px;
 }
 
+
+
 main {
     flex: 1;
     padding: 2% 4%;
@@ -146,6 +149,12 @@ main {
     color: var(--primary);
 }
 
+main section h2 a {
+    background-color: var(--secondary);
+    border-radius: 0.3rem;
+    padding: 1%;
+    color: var(--primary);
+}
 .meta {
     padding: 1%;
 }
@@ -198,6 +207,9 @@ main {
     margin-bottom: 5%;
 }
 
+
+
 #homepage-btn {
     font-size: 30px;
 }
+
