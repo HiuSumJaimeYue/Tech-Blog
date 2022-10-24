@@ -27,22 +27,22 @@ If you are setting the project up in your local computer, run "npm i" in your te
 
 ## Usage         
 You can see a few blogs on the homepage.           
-![Homepage Preview]( "Homepage Preview")                    
+![Homepage Preview](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/HomepagePreview.jpg "Homepage Preview")                    
 Anything you click on homepage except homepage itself, you will be redircted to the login Page.             
-![Login Preview 1]( "Login Preview 1")              
+![Login Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/LoginPagePreview.jpg "Login Preview 1")              
 If you want to signup instead, click on the button and you will be redirected to the signup Page.       
-![Signup Preview 1]( "Signup Preview 1")    
+![Signup Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/SignupPagePreview.jpg "Signup Preview 1")    
 After successfully signup or login, you will see the Dashboard Page.                
-![Dashboard Preview 1]( "Dashboard Page Preview 1")                        
+![Dashboard Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/DashboardPagePreview.jpg "Dashboard Page Preview 1")                        
 You can click on Add New Post, you will see the add Page.            
-![Add Preview 1]( "Add Preview 1")              
+![Add Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/AddPagePreview.jpg "Add Preview 1")              
 After you created the new post, you will be redirected back to Dashboard page. And Now you can see your new post.               
-![New-Dashboard Preview 1]( "New-Dashboard Preview 1")              
+![New-Dashboard Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/NewDashboardPagePreview.jpg "New-Dashboard Preview 1")              
 If you want to change of your posts, click on them in Daskboard page and you will be redirected to Edit-post page. And Now you can make your changes.           
 After finished changing, do not forget to push the update button or you can decide to delete the post or leave a comment below.            
-![Edit Preview 1]( "Edit Preview 1")                                   
+![Edit Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/EditPagePreview.jpg "Edit Preview 1")                                   
 This is how the comment page if you click on the title of the post in homepage.          
-![Comment Preview 1]( "Comment Preview 1")      
+![Comment Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/CommentPagePreview.jpg "Comment Preview 1")      
 
 
 ## License         
