@@ -8,10 +8,11 @@ If you log in, you can comment on the blogs.
 
 The technologies we used in this project is Node.js, Express.js, Handlebars.js, MySql, Sequelize and Heroku.
 
-Below are the links to the deployed application and this repository. Screenshots are shown in the Usage Section.
+Below are the links to the deployed application ,this repository and the second repository that I created and used as starter code. Screenshots are shown in the Usage Section.
 
 Deployed application: https://tech-blog-hiusumjaimeyue.herokuapp.com/        
-Github repository: https://github.com/HiuSumJaimeYue/Tech-Blog
+GitHub repository: https://github.com/HiuSumJaimeYue/Tech-Blog          
+Starter code Repository: https://github.com/HiuSumJaimeYue/just-tech-news
 
 ## Table of Contents               
 -[Installation](#installation)          
