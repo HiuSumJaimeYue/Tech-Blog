@@ -38,7 +38,7 @@ router.get('/', (req, res) => {
         });
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', withAuth, (req, res) => {
     Post.findOne({
         where: {
             id: req.params.id
@@ -69,8 +69,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-router.post('/', (req, res) => {
-    // expects {title: 'Taskmaster goes public!', content: 'https://taskmaster.com/press', user_id: 1}
+router.post('/', withAuth, (req, res) => {
     Post.create({
         title: req.body.title,
         content: req.body.content,
@@ -83,7 +82,7 @@ router.post('/', (req, res) => {
         });
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', withAuth, (req, res) => {
     Post.update(
         {
             title: req.body.title
