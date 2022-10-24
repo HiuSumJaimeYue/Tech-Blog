@@ -5,11 +5,13 @@
     </h2>
     <form class="edit-post-form">
         <div>
+            <label for="post-title">Title</label>
             <input name="post-title" type="text" value="{{post.title}}" />
-            <span>({{post.content}})</span>
+            {{!-- <span>({{post.content}})</span> --}}
         </div>
         <div>
-            by you on {{format_date post.created_at}}
+            <label for="post-content">Content</label>
+            <input name="post-content" type="text" value="{{post.content}}" />
         </div>
         <button type="submit">Update post</button>
         <button type="button" class="delete-post-btn">Delete post</button>
