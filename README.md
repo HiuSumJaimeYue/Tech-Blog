@@ -38,7 +38,7 @@ You can click on Add New Post, you will see the add Page.
 ![Add Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/AddPagePreview.jpg "Add Preview 1")              
 After you created the new post, you will be redirected back to Dashboard page. And now you can see your new post.               
 ![New-Dashboard Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/NewDashboardPagePreview.jpg "New-Dashboard Preview 1")              
-If you want to change of your posts, click on them in Dashboard page and you will be redirected to Edit-post page. And Now you can make your changes.           
+If you want to change of your posts, click on them in Dashboard page and you will be redirected to Edit-post page. And now you can make your changes.           
 After finished editing, do not forget to push the update button or you can decide to delete the post or leave a comment below.            
 ![Edit Preview 1](https://github.com/HiuSumJaimeYue/Tech-Blog/blob/main/Screenshots/EditPagePreview.jpg "Edit Preview 1")                                   
 This is how the comment page if you click on the title of the post in homepage.          
