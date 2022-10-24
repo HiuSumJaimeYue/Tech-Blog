@@ -74,6 +74,13 @@ textarea {
     min-height: 100px;
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
 form>div {
     margin-bottom: 2%;
 }
@@ -113,8 +120,6 @@ header nav a,
     color: var(--primary);
     padding-right: 30px;
 }
-
-
 
 main {
     flex: 1;
@@ -156,6 +161,7 @@ main section h2 a {
     padding: 1%;
     color: var(--primary);
 }
+
 .meta {
     padding: 1%;
 }
@@ -214,4 +220,3 @@ main section h2 a {
 #homepage-btn {
     font-size: 30px;
 }
-
