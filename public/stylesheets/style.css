@@ -1,3 +1,8 @@
+:root {
+    --primary: #d5ffdc;
+    --secondary: #000000;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,11 +14,12 @@ html {
     margin: 0;
     font-family: sans-serif;
     color: #333;
+    background-color: var(--primary);
 }
 
 a {
     text-decoration: none;
-    color: #225ca3;
+    color: var(--secondary);
     font-weight: bold;
     transition: color .1s;
 }
@@ -23,7 +29,7 @@ a:hover {
 }
 
 button {
-    background-color: #225ca3;
+    background-color: var(--secondary);
     border: 0;
     padding: 1%;
     color: white;
@@ -33,13 +39,18 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+button:hover , .title a:hover{
     background-color: #3486eb;
 }
 
 .post-list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+.post-list li article {
+    border-style: solid;
 }
 
 textarea,
@@ -82,29 +93,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1%;
+    padding: 3% 4%;
+    background-color: black;
 }
 
 header h1 {
     font-size: 1em;
+    padding: 12px;
+    background-color: var(--primary);
+    border-radius: 0.3rem;
+}
+
+header nav a,
+.btn-no-style {
+    font-size: 30px;
+    color: var(--primary);
+    padding-right: 30px;
 }
 
 main {
     flex: 1;
     padding: 2% 4%;
-}
-
-.btn-no-style {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    text-decoration: none;
-    color: #225ca3;
-    font-size: 100%;
-    font-weight: bold;
-    transition: color .1s;
-    margin-left: 16px;
 }
 
 .btn-no-style:hover {
@@ -125,10 +134,25 @@ main {
     line-height: 150%;
 }
 
+.title{
+    color: #e4e4e4;
+    background-color: var(--secondary);
+    padding: 1%;
+}
+
+.title a{
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.meta{
+    padding: 1%;
+}
+
 .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: white;
 }
 
 .edit-link {
@@ -163,10 +187,6 @@ main {
     margin-bottom: 5%;
 }
 
-footer {
-    border-top: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    font-size: 110%;
+#homepage-btn {
+    font-size: 30px;
 }
