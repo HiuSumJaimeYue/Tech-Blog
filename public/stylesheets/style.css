@@ -1,6 +1,7 @@
 :root {
     --primary: #d5ffdc;
     --secondary: #000000;
+    --border-radius: 0.3rem;
 }
 
 * {
@@ -187,6 +188,8 @@ main section h2 a {
 .comment {
     padding: 1%;
     margin-bottom: 1%;
+    border-radius: var(--border-radius);
+    border-style: solid;
 }
 
 .comment:nth-child(odd) {
