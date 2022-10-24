@@ -1,9 +1,8 @@
 const router = require('express').Router();
-const { User, Post, Vote, Comment } = require("../../models");
+const { User, Post, Comment } = require("../../models");
 
 // GET /api/users
 router.get('/', (req, res) => {
-    // Access our User model and run .findAll() method) => SELECT * FROM users;
     User.findAll({
         attributes: { exclude: ['password'] }
     })
@@ -26,7 +25,6 @@ router.get('/:id', (req, res) => {
                 model: Post,
                 attributes: ['id', 'title', 'post_url', 'created_at']
             },
-            // include the Comment model here:
             {
                 model: Comment,
                 attributes: ['id', 'comment_text', 'created_at'],
@@ -37,9 +35,7 @@ router.get('/:id', (req, res) => {
             },
             {
                 model: Post,
-                attributes: ['title'],
-                through: Vote,
-                as: 'voted_posts'
+                attributes: ['title']
             }
         ]
     })
@@ -82,16 +78,6 @@ router.post('/', async (req, res) => {
                 res.json(dbUserData);
             });
         })
-    //     console.log("Hello");
-    //     console.log(data);
-    //     req.session.save(() => {
-    //         req.session.user_id = data.dataValues.id;
-    //         req.session.username = data.dataValues.username;
-    //         req.session.loggedIn = true;
-
-    //         res.json(data);
-
-    // })
 });
 
 router.post('/login', (req, res) => {
@@ -138,7 +124,6 @@ router.post('/logout', (req, res) => {
 router.put('/:id', (req, res) => {
     // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
 
-    // if req.body has exact key/value pairs to match the model, you can just use `req.body` instead
     User.update(req.body, {
         individualHooks: true,
         where: {
