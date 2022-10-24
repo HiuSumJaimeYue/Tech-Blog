@@ -16,6 +16,9 @@ Comment.belongsTo(User, {
     foreignKey: 'user_id'
 });
 
+//Because of this constraint. You cannot delete posts with comments
+//Because if not, then the comment will exist in the database without a post existing,
+// so it will be data taking up space without a purpose
 Comment.belongsTo(Post, {
     foreignKey: 'post_id'
 });

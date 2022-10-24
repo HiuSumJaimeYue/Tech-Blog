@@ -2,9 +2,9 @@
                 
 ## Description   
 
-This is a Tech Blog web application that allows user to comment on blogs.         
-When you open the Tech Blog web application, you can see the exisiting blogs. 
-If you log in, you can comment on the blogs. Once you login, the session will time out in 10 minutes and prompt you to login again.     
+This is a Tech Blog web application that allows user to comment on posts.         
+When you open the Tech Blog web application, you can see the existing posts. 
+If you log in, you can comment on the posts and add your own posts. Once you login, the session will time out in 10 minutes and prompt you to login again.     
 
 The technologies we used in this project is Node.js, Express.js, Handlebars.js, MySql, Sequelize and Heroku.
 
@@ -27,7 +27,11 @@ If you are setting the project up in your local computer, run "npm i" in your te
 
 ## Usage         
 You can see a few blogs on the homepage.           
-![Homepage Preview]( "Homepage Preview")          
+![Homepage Preview]( "Homepage Preview")                    
+Anything you click on homepage except homepage itself, you will be redircted to the login Page.             
+![Login Preview 1]( "Login Preview 1")              
+If you want to signup instead, click on the button and you will be redirected to the signup Page.       
+
 You can see the comments that were made on that blog if you clicked on "Comment here".            
 ![comment Preview 1]( "comment Preview 1")                      
 If you logged in, you can even add your comments on the blog.                 
