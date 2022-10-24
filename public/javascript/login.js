@@ -46,7 +46,6 @@ async function signupFormHandler(event) {
         } else {
             alert(response.statusText);
         }
-
         const response2 = await fetch('/api/users/login', {
             method: 'post',
             body: JSON.stringify({
@@ -62,6 +61,7 @@ async function signupFormHandler(event) {
             alert(response2.statusText);
         }
     }
+
 }
 document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);

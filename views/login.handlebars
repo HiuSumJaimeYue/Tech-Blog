@@ -1,4 +1,5 @@
 <form class="login-form">
+    <h2>Login<h2>
     <div>
         <label for="email-login">email:</label>
         <input type="text" id="email-login" />
@@ -7,12 +8,21 @@
         <label for="password-login">password:</label>
         <input type="password" id="password-login" />
     </div>
+
     <div>
-        <button type="submit">login</button>
+        <h2>
+            <a href="/signup" class-"add-post-btn">Sign up instead</a>
+        </h2>
     </div>
+
+    <div>
+        <button type="submit" class-"add-post-btn">login</button>
+    </div>
+
+
 </form>
 
-<form class="signup-form">
+{{!-- <form class="signup-form">
     <div>
         <label for="username-signup">username:</label>
         <input type="text" id="username-signup" />
@@ -28,6 +38,5 @@
     <div>
         <button type="submit">signup</button>
     </div>
-</form>
+</form> --}}
 <script src="/javascript/login.js"></script>
-
