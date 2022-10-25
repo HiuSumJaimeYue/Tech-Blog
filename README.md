@@ -2,7 +2,7 @@
                 
 ## Description   
 
-This is a Tech Blog web application that allows user to comment on posts.         
+This is a Tech Blog web application made by Hiu Sum Jaime Yue that allows user to comment on posts.         
 When you open the Tech Blog web application, you can see the existing posts. 
 If you log in, you can comment on the posts and add your own posts. Once you login, the session will time out in 10 minutes and prompt you to login again.     
 
