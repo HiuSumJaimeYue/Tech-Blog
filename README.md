@@ -6,7 +6,7 @@ This is a Tech Blog web application made by Hiu Sum Jaime Yue that allows user t
 When you open the Tech Blog web application, you can see the existing posts. 
 If you log in, you can comment on the posts and add your own posts. Once you login, the session will time out in 10 minutes and prompt you to login again.     
 
-The technologies we used in this project is Node.js, Express.js, Handlebars.js, MySql, Sequelize and Heroku.
+The technologies I used in this project is Node.js, Express.js, Handlebars.js, MySql, Sequelize and Heroku.
 
 Below are the links to the deployed application ,this repository and the repository that I created and used as starter code. Screenshots are shown in the Usage Section.
 
